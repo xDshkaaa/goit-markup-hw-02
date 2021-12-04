@@ -33,7 +33,19 @@ a {
   text-decoration: none;
 }
 /*одинаковві класи */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
 
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 /* header */
 .conteiner {
   width: 1200px;
@@ -167,13 +179,11 @@ a {
 }
 /* benefits */
 
-.block {
-  background-color: #fff;
-}
 .benefits {
   padding-top: 95px;
   padding-bottom: 95px;
 }
+
 .benefits-list {
   display: flex;
 }
