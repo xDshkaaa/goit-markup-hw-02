@@ -1,0 +1,401 @@
+:root {
+  --blue-color: #2196f3;
+  --light-blue-color: #188ce8;
+  --main-color: #757575;
+  --bgc-main-color: #e5e5e5;
+  --header-color: #212121;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: var(--main-color);
+  background-color: #fff;
+}
+h1,
+h2,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+ul {
+  padding-left: 0px;
+  margin: 0px;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/*одинаковві класи */
+
+/* header */
+
+.top {
+  margin-bottom: 1px;
+  background-color: #ffffff;
+}
+
+.top-logo {
+  margin-right: 95px;
+
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--blue-color);
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
+}
+.top-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+.top-nav:hover,
+:focus {
+  color: var(--blue-color);
+}
+.nav-main {
+  align-items: center;
+  display: flex;
+}
+.top-list {
+  display: flex;
+}
+.top-list a {
+  display: block;
+  margin-right: 50px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.top-list a:not(:last-child) {
+  margin-right: 50px;
+}
+
+.top-list:focus {
+  color: #2196f3;
+}
+.top-element {
+  margin-left: auto;
+  display: flex;
+}
+.top-element a {
+  margin-right: 50px;
+}
+.top-element > a:not(:last-child) {
+  margin-right: 50px;
+}
+.top-auth {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.top-auth:hover,
+.top-auth:focus {
+  color: var(--blue-color);
+}
+/*hero  */
+.hero {
+  margin-top: 0;
+  margin-bottom: 95px;
+  background-color: #2f303a;
+}
+.conteiner {
+  width: 1200px;
+
+  margin-right: auto;
+  margin-left: auto;
+
+  padding-left: 15px;
+  padding-right: 15px;
+
+  outline: 1px solid #000;
+}
+.hero-background {
+  padding-top: 200px;
+  padding-bottom: 200px;
+
+  text-align: center;
+}
+.hero-header {
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  margin-top: 0px;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: #ffffff;
+}
+
+.knob {
+  font-family: inherit;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  width: 200px;
+  height: 50px;
+  border: none;
+  background-color: var(--blue-color);
+  color: #ffffff;
+}
+.knob:hover,
+.knob:focus {
+  background-color: var(--light-blue-color);
+}
+
+.service {
+  padding: 10px 32px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.8;
+}
+.block {
+  background-color: #fff;
+}
+
+.benefints-header {
+  margin-bottom: 10px;
+
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--header-color);
+}
+.benefits {
+  margin-bottom: 95px;
+}
+.benefits p {
+  margin-top: 0;
+  margin-bottom: 10px;
+
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+/* work section */
+.work {
+  margin-top: 0;
+  margin-bottom: 95px;
+}
+.work-title {
+  margin-bottom: 50px;
+
+  font-weight: bold;
+  font-size: 36px;
+
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--header-color);
+}
+/* team section */
+.team {
+  margin-bottom: 95px;
+  color: var(--header-color);
+  background-color: #f5f4fa;
+}
+.team-header {
+  padding-top: 95px;
+  padding-bottom: 50px;
+
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-border li {
+  width: 270px;
+  height: 368px;
+  left: 215px;
+  top: 1635px;
+
+  background: #ffffff;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.team-link {
+  color: var(--header-color);
+}
+.team-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.1;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-role {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.1;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+/* footer */
+.down {
+  background: #2f303a;
+}
+.address {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #ffffff;
+
+  letter-spacing: 0.03em;
+}
+.links {
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.6);
+}
+.links:hover,
+.links:focus {
+  color: rgba(255, 255, 255, 0.8);
+}
+.logo-studio {
+  color: #ffffff;
+}
+.logo {
+  color: #000;
+}
+
+.top-logo {
+  color: var(--blue-color);
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* / */
+/*  */
+/*Друга частина проекту */
+.selection {
+  color: var(--blue-color);
+}
+.tack {
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+
+  background-color: #f5f4fa;
+  columns: #212121;
+}
+.tack:hover,
+.tack:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  background-color: var(--blue-color);
+  color: #ffffff;
+}
+.knob-all {
+  width: 73px;
+  height: 38px;
+  left: 495px;
+  top: 174px;
+}
+.knob-sites {
+  width: 128px;
+  height: 38px;
+  left: 576px;
+  top: 174px;
+}
+.knob-apps {
+  width: 145px;
+  height: 38px;
+  left: 712px;
+  top: 174px;
+}
+.knob-design {
+  width: 103px;
+  height: 38px;
+  left: 865px;
+  top: 174px;
+}
+.knob-marketing {
+  width: 130px;
+  height: 38px;
+  left: 976px;
+  top: 174px;
+}
+.knob-all:hover {
+  background-color: var(--blue-color);
+  color: #ffffff;
+}
+.knob-sites:hover {
+  background-color: var(--blue-color);
+  color: #ffffff;
+}
+.knob-apps:hover {
+  background-color: var(--blue-color);
+  color: #ffffff;
+}
+.knob-design:hover {
+  background-color: var(--blue-color);
+  color: #ffffff;
+}
+.knob-marketing:hover {
+  background-color: var(--blue-color);
+  color: #ffffff;
+}
+/* capital */
+.master {
+  background: var(--bgc-main-color);
+}
+.master-list > li {
+  width: 370px;
+  height: 404px;
+  left: 215px;
+  top: 262px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+
+  background-color: #fff;
+}
+
+.master-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+
+  letter-spacing: 0.06em;
+  color: var(--header-color);
+}
+
+.master-resource {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.8;
+
+  letter-spacing: 0.03em;
+
+  color: var(--main-color);
+}
