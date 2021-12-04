@@ -23,32 +23,33 @@
   </head>
   <body>
     <!-- hEADER -->
-    <header class="top">
-      <div class="">
-        <nav class="top-navigation conteiner nav-main">
+    <header class="top conteiner">
+      <div class="top-help">
+        <nav class="nav-main">
           <a href="" class="top-logo"> Web<span class="logo">Studio</span> </a>
 
           <ul class="top-list">
-            <li>
+            <li class="top-item">
               <a href="" class="top-nav selection">Студия </a>
             </li>
-            <li>
+            <li class="top-item">
               <a href="file:///D:/project/goit-markup-hw-02/portfolio.html" class="top-nav"
-                >Портфолио</a
-              >
+                >Портфолио
+              </a>
             </li>
-            <li>
+            <li class="top-item">
               <a href="" class="top-nav">Контакты</a>
             </li>
           </ul>
-          <ul class="top-element">
-            <li>
-              <a href="mailto:info@devstudio.com" class="top-auth">info@devstudio.com </a>
-            </li>
-            <li><a href="tel:+380961111111" class="top-auth">+38 096 111 11 11</a></li>
-          </ul>
         </nav>
+        <ul class="top-element">
+          <li class="top-item">
+            <a href="mailto:info@devstudio.com" class="top-auth">info@devstudio.com </a>
+          </li class="top-item">
+          <li><a href="tel:+380961111111" class="top-auth">+38 096 111 11 11</a></li>
+        </ul>
       </div>
+      
     </header>
     <!-- hero section -->
     <main>
@@ -61,28 +62,29 @@
           <button type="button" class="knob"><span class="service">Заказать услугу</span></button>
         </div>
       </section>
+      <!--benefits  -->
       <div class="block">
-        <section class="benefits">
-          <ul class="conteiner">
-            <li>
+        <section class="benefits conteiner">
+          <ul class="benefits-list">
+            <li class="benefits-item">
               <h2 class="benefints-header">Внимание к деталям</h2>
-              <p>
+              <p class="benefints-text">
                 Идейные соображения, а также начало повседневной работы по формированию позиции.
               </p>
             </li>
-            <li>
+            <li class="benefits-item">
               <h2 class="benefints-header">Пунктуальность</h2>
               <p>
                 Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
               </p>
             </li>
-            <li>
+            <li class="benefits-item">
               <h2 class="benefints-header">Планирование</h2>
               <p>
                 Равным образом консультация с широким активом в значительной степени обуславливает.
               </p>
             </li>
-            <li>
+            <li class="benefits-item">
               <h2 class="benefints-header">Современные технологии</h2>
               <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
             </li>
@@ -91,11 +93,11 @@
         <!-- work section -->
         <section class="work conteiner">
           <h2 class="work-title">Чем мы занимаемся</h2>
-          <ul>
-            <li>
+          <ul class="work-list">
+            <li class="work-item">
               <img src="./images/box1.jpg" alt="Написание верстки" width="370" />
             </li>
-            <li>
+            <li class="work-item">
               <img
                 src="./images/box2.jpg"
                 alt="Подстройка сайта под телефон
@@ -103,7 +105,7 @@
                 width="370"
               />
             </li>
-            <li>
+            <li class="work-item">
               <img
                 src="./images/box3.jpg"
                 alt="Проектирование дизайна
@@ -118,50 +120,59 @@
       <section class="team conteiner">
         <h2 class="team-header">Наша команда</h2>
         <ul class="team-border">
-          <li class="">
+          <li class="team-item">
             <a href="" class="team-link">
               <img src="./images/img1.jpg" alt="Игорь Демьяненко" width="270" />
-              <h3 class="team-member">Игорь Демьяненко</h3></a
-            >
+              
+            <div class="team-panel">
+              <h3 class="team-member">Игорь Демьяненко</h3>
+            </a>
+            
             <p class="team-role">Product Designer</p>
+          </div>
           </li>
-          <li class="">
+          <li class="team-item">
             <a href="" class="team-link"
               ><img src="./images/img2.jpg" alt="Ольга Репина" width="270" />
-              <h3 class="team-member">Ольга Репина</h3></a
+              <div class="team-panel">
+                <h3 class="team-member">Ольга Репина</h3></a
             >
             <p class="team-role">Frontend Developer</p>
+          </div>
           </li>
 
-          <li class="">
+          <li class="team-item">
             <a href="" class="team-link">
               <img src="./images/img3.jpg" alt="Николай Тарасов" width="270" />
-              <h3 class="team-member">Николай Тарасов</h3></a
+             <div class="team-panel">
+                <h3 class="team-member">Николай Тарасов</h3></a
             >
             <p class="team-role">Marketing</p>
+          </div>
           </li>
-          <li class="">
+          <li class="team-item">
             <a href="" class="team-link">
               <img src="./images/img4.jpg" alt="Михаил Ермаков" width="270" />
-              <h3 class="team-member">Михаил Ермаков</h3></a
+              <div class="team-panel">
+                <h3 class="team-member">Михаил Ермаков</h3></a
             >
-            <p class="team-role">UI Designer</p>
+            <p class="team-role">UI Designer</p></div>
           </li>
         </ul>
       </section>
 
       <!-- footer -->
       <footer class="down">
-        <div class="conteiner">
-          <h2 class="top-logo">
-            <span class="down-logo">Web</span><span class="logo-studio">Studio</span>
+        <div class="conteiner ">
+          <h2 class="top-logo down-logo ">
+            Web<span class="logo-studio">Studio</span>
           </h2>
 
           <address>
             <ul>
-              <li class="address">г. Киев, пр-т Леси Украинки, 26</li>
-              <li><a href="mailto:info@example.com" class="links"> info@example.com</a></li>
-              <li><a href="tel:+380991111111" class="links">+38 099 111 11 11</a></li>
+              <li class="address down-item">г. Киев, пр-т Леси Украинки, 26</li>
+              <li class="down-item"><a href="mailto:info@example.com" class="links"> info@example.com</a></li>
+              <li class="down-item"><a href="tel:+380991111111" class="links">+38 099 111 11 11</a></li>
             </ul>
           </address>
         </div>
