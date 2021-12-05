@@ -56,7 +56,6 @@ a {
 
   padding-left: 15px;
   padding-right: 15px;
-  outline: 1px solid #000;
 }
 
 .top {
@@ -80,6 +79,9 @@ a {
   font-family: 'Raleway', sans-serif;
 }
 .top-nav {
+  display: block;
+  padding-bottom: 32px;
+  padding-top: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -98,10 +100,8 @@ a {
 .top-list {
   display: flex;
 }
-.top-list .top-item {
+.top-item {
   margin-right: 50px;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .top-list .top-item:last-child {
@@ -122,6 +122,9 @@ a {
   margin-right: 0px;
 }
 .top-auth {
+  display: block;
+  padding-bottom: 32px;
+  padding-top: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -144,7 +147,12 @@ a {
 
   text-align: center;
 }
+
 .hero-header {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin-bottom: 30px;
@@ -156,11 +164,6 @@ a {
   color: #ffffff;
 }
 
-.hero-main {
-  width: 700px;
-  margin-left: auto;
-  margin-right: auto;
-}
 .knob {
   padding: 10px 32px;
   font-weight: bold;
@@ -279,9 +282,19 @@ a {
 .team-item:last-child {
   margin-right: 0;
 }
+
 .team-link {
   color: var(--header-color);
 }
+.team-member:hover,
+:focus {
+  color: var(--blue-color);
+}
+.team-role:hover,
+:focus {
+  color: var(--blue-color);
+}
+
 .team-panel {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -487,6 +500,10 @@ img {
   letter-spacing: 0.06em;
   color: var(--header-color);
 }
+.master-title:hover,
+:focus {
+  color: var(--blue-color);
+}
 
 .master-resource {
   font-weight: normal;
@@ -496,4 +513,8 @@ img {
   letter-spacing: 0.03em;
 
   color: var(--main-color);
+}
+.master-resource:hover,
+:focus {
+  color: var(--blue-color);
 }
